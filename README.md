@@ -7,7 +7,7 @@
 - 2) comment out Mali-shared library in app/CMakeLists.txt and uncomment Adreno shared library
 
 ## To run the app
-- 1) Download the model
+- 1) Download and extract the model
 - 2) Put the whole model's directory onto device's storage
 - 3) Change the path in MainActivity.java
 - 4) Run :)
