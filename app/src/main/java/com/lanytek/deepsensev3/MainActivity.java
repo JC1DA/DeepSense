@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
         btn_processImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //new async_processImage_yolo().execute();
-                new async_processImage_img_recognition().execute();
+                new async_processImage_yolo().execute();
+                //new async_processImage_img_recognition().execute();
             }
         });
 
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-            InitGPU(model_img_recognition, activity.getPackageName());
+            InitGPU(model_yolo_tiny, activity.getPackageName());
             return null;
         }
 
